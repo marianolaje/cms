@@ -21,4 +21,5 @@ collections:
           - {label: "Informacion", name: "info", widget: "object", fields:
             - {label: "Info Titulo", name: "infoTitle", widget: "string"}
             - {label: "Contenido", name: "content", widget: "string"}
+         }
       }
