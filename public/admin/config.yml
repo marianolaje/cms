@@ -16,10 +16,21 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Icono", name: "thumbnail", widget: "image", required: false}
-      - {label: "SubTitulos", name: "subtitles", widget: "object", fields:
+      - label: "SubTitulos"
+        name: "subtitles"
+        widget: "object"
+        fields:
         - {label: "SubTitulo", name: "subtitle", widget: "string"}
-          - {label: "Informacion", name: "info", widget: "object", fields:
+        - label: "Informacion"
+          name: "info"
+          widget: "object"
+          fields:
             - {label: "Info Titulo", name: "infoTitle", widget: "string"}
             - {label: "Contenido", name: "content", widget: "string"}
-         }
-      }
+            - label: "Featured Image"
+              name: "thumbnail"
+              widget: "image"
+              default: "/uploads/chocolate-dogecoin.jpg"
+              media_library:
+                config:
+                  multiple: true
