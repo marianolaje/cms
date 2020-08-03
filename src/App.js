@@ -5,7 +5,7 @@ import * as post from './posts.json'
 
 function App() {
 
-  console.log(post.default[0])
+  console.log(post.default)
 
   return (
     <div className="App">
