@@ -1,8 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import * as post from './posts.json'
 
 function App() {
+
+  console.log(post.default[0])
+
   return (
     <div className="App">
       <header className="App-header">
