@@ -7,18 +7,15 @@ media_folder: "public/images"
 public_folder: "/images"
 
 collections:
-  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
+    extension: "json"
+    folder: "_posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
-      - {label: "Titulo", name: "title", widget: "string"}
-      - {label: "Icono", name: "thumbnail", widget: "image", required: false}
-      - {label: "SubTitulos", name: "subtitles", widget: "object", fields:
-        - {label: "SubTitulo", name: "subtitle", widget: "string"}
-          - {label: "Informacion", name: "info", widget: "object", fields:
-            - {label: "Info Titulo", name: "infoTitle", widget: "string"}
-            - {label: "Contenido", name: "content", widget: "string"}
-      }
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", optional: true, widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
