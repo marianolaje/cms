@@ -1,11 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import * as post from './posts.json'
 
 function App() {
-
-  console.log(post.default)
 
   return (
     <div className="App">
