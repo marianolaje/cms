@@ -3,8 +3,8 @@ const fs = require("fs")
 
 const dirTitlePath = path.join(__dirname, "../src/info/title")
 const dirSubtitlePath = path.join(__dirname, "../src/info/subtitle")
-let postlist = []
-
+let titlelist = []
+let subtitlelist = []
 
 const getTitles = () => {
     fs.readdir(dirTitlePath, (err, files) => {
@@ -34,19 +34,17 @@ const getTitles = () => {
                 const lines = contents.split("\n")
                 const metadataIndices = lines.reduce(getMetadataIndices, [])
                 const metadata = parseMetadata({lines, metadataIndices})
-                const parsedDate = metadata.date ? formatDate(metadata.date) : new Date()
-                const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`
-                const date = new Date(datestring)
+                const date = new Date()
                 const timestamp = date.getTime() / 1000
                 post = {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
-                    icon: metadata.icon
+                    icon: metadata.icon ? metadata.icon : null
                 }
-                postlist.push(post)
+                titlelist.push(post)
                 ilist.push(i)
                 if (ilist.length === files.length) {
-                    const sortedList = postlist.sort ((a, b) => {
+                    const sortedList = titlelist.sort ((a, b) => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
@@ -92,22 +90,22 @@ const getSubtitles = () => {
                 const metadataIndices = lines.reduce(getMetadataIndices, [])
                 const metadata = parseMetadata({lines, metadataIndices})
                 const content = parseContent({lines, metadataIndices})
-
-                const parsedDate = metadata.date ? formatDate(metadata.date) : new Date()
-                const datestring = `${parsedDate["year"]}-${parsedDate["month"]}-${parsedDate["day"]}T${parsedDate["time"]}:00`
-                const date = new Date(datestring)
+                const date = new Date()
                 const timestamp = date.getTime() / 1000
                 post = {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
-                    subtitle: metadata.subtitle ? metadata.subtitle : "No title given",
-                    images: metadata.images,
+                    icon: metadata.icon ? metadata.icon : null,
+                    subtitle: metadata.subtitle ? metadata.subtitle : "No subtitle given",
+                    imageOne: metadata.imageOne ? metadata.imageOne : null,
+                    imageTwo: metadata.imageTwo ? metadata.imageTwo : null,
+                    imageThree: metadata.imageThree ? metadata.imageThree : null,
                     content: content ? content : "No content given",
                 }
-                postlist.push(post)
+                subtitlelist.push(post)
                 ilist.push(i)
                 if (ilist.length === files.length) {
-                    const sortedList = postlist.sort ((a, b) => {
+                    const sortedList = subtitlelist.sort ((a, b) => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
@@ -118,27 +116,6 @@ const getSubtitles = () => {
     })
     return
 }
-/*
-const getPages = () => {
-    fs.readdir(dirPathPages, (err, files) => {
-        if (err) {
-            return console.log("Failed to list contents of directory: " + err)
-        }
-        files.forEach((file, i) => {
-            let page
-            fs.readFile(`${dirPathPages}/${file}`, "utf8", (err, contents) => {
-                page = {
-                    content: contents
-                }
-                pagelist.push(page)
-                let data = JSON.stringify(pagelist)
-                fs.writeFileSync("src/pages.json", data)
-            })
-        })
-    })
-    return
-}
-*/
+
 getTitles()
-//getPages()
 getSubtitles()

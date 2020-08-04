@@ -9,7 +9,6 @@ public_folder: "/images"
 collections:
   - name: "title" # Used in routes, e.g., /admin/collections/blog
     label: "Titulo" # Used in the UI
-    extension: "json"
     folder: "src/info/title" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -19,7 +18,6 @@ collections:
       - {label: "Icono", name: "icon", widget: "image"}
   - name: "subtitle" # Used in routes, e.g., /admin/collections/blog
     label: "SubTitulo" # Used in the UI
-    extension: "json"
     folder: "src/info/subtitle" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{subtitle}}" # Filename template, e.g., YYYY-MM-DD-title.md
