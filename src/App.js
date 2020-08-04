@@ -6,6 +6,7 @@ import * as post from './posts.json'
 function App() {
 
   console.log(post.default)
+  console.log(post.default)
 
   return (
     <div className="App">
