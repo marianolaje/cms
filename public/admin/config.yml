@@ -25,5 +25,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
       - {label: "Titulo Padre", name: "title", widget: "string"}
       - {label: "SubTitulo", name: "subtitle", widget: "string"}
-      - {label: "Imagenes", name: "images", widget: "list", required: false, field: {label: "Imagen", name: "image", widget: "image"}}
+      - {label: "Imagen 1", name: "imageOne", widget: "image", required: false}
+      - {label: "Imagen 2", name: "imageTwo", widget: "image", required: false}
+      - {label: "Imagen 3", name: "imageThree", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
