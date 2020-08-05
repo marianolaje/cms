@@ -24,11 +24,11 @@ collections:
     slug: "{{subtitle}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
-      - {label: "Titulo Padre", name: "title", widget: "string"}
+      - {label: "Titulo", name: "title", widget: "string"}
+      - {label: "Url Titulo", name: "urltitle", widget: "string"}
+      - {label: "Titulo Padre", name: "titleFather", widget: "string"}
       - {label: "Icono", name: "icon", widget: "image"}
-      - {label: "Url titulo", name: "urltitle", widget: "string"}
-      - {label: "SubTitulo", name: "subtitle", widget: "string"}
-      - {label: "Url propia", name: "urlsubtitle", widget: "string"}
+      - {label: "Url Padre", name: "urltitleFather", widget: "string"}
       - {label: "Pais", name: "country", widget: "string"}
   - name: "info" # Used in routes, e.g., /admin/collections/blog
     label: "Informacion" # Used in the UI

@@ -90,11 +90,11 @@ const getSubtitles = () => {
                 const timestamp = date.getTime() / 1000
                 post = {
                     id: timestamp,
-                    title: metadata.title,
+                    subtitle: metadata.title,
+                    urlsubtitle: metadata.urltitle,
+                    title: metadata.titleFather,
                     icon: metadata.icon ? metadata.icon : null,
-                    urltitle: metadata.urltitle,
-                    subtitle: metadata.subtitle,
-                    urlsubtitle: metadata.urlsubtitle,
+                    urltitle: metadata.urltitleFather,
                     country: metadata.country
                 }
                 subtitlelist.push(post)
