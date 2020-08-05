@@ -1,6 +1,6 @@
 ---
 layout: title
-title: Pagos
-icon: /images/pagos.png
-urltitle: /pagos
+title: Socio46
+icon: /images/socio.png
+urltitle: /socio46
 ---
