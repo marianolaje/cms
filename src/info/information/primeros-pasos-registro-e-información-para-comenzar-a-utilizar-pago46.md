@@ -5,7 +5,7 @@ urlsubtitle: /sobre/primeros-pasos
 country: Argentina
 video: https://www.youtube.com/embed/c8sx5LUDkS0
 ---
-¡Bienvenido a PAGO46![ss](ss)
+¡Bienvenido a PAGO46!
 
 Seguramente quieres ser Socio46 o saber como seguir luego de registrarte. Tranquilo, aquí te lo contamos todo...
 
