@@ -51,7 +51,6 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
       - {label: "SubTitulo", name: "subtitle", widget: "string"}
       - {label: "Url subtitulo", name: "urlsubtitle", widget: "string"}
-      - {label: "Url sub-subtitulo", name: "urlsubsubtitle", widget: "string", required: false}
       - {label: "Pais", name: "country", widget: "string"}
       - {label: "Imagen 1", name: "imageOne", widget: "image", required: false}
       - {label: "Imagen 2", name: "imageTwo", widget: "image", required: false}
