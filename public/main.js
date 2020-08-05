@@ -4,11 +4,9 @@ const fs = require("fs")
 const dirTitlePath = path.join(__dirname, "../src/info/title")
 const dirSubtitlePath = path.join(__dirname, "../src/info/subtitle")
 const dirInformationPath = path.join(__dirname, "../src/info/information")
-const dirSubSubtitlePath = path.join(__dirname, "../src/info/subsubtitle")
 let titlelist = []
 let subtitlelist = []
 let informationList = []
-let subsubtitleList = []
 
 const getTitles = () => {
     fs.readdir(dirTitlePath, (err, files) => {
@@ -43,7 +41,8 @@ const getTitles = () => {
                 post = {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
-                    icon: metadata.icon ? metadata.icon : null
+                    icon: metadata.icon ? metadata.icon : null,
+                    urltitle: metadata.urltitle
                 }
                 titlelist.push(post)
                 ilist.push(i)
@@ -154,7 +153,6 @@ const getInformation = () => {
                     id: timestamp,
                     subtitle: metadata.subtitle,
                     urlsubtitle: metadata.urlsubtitle,
-                    urlsubsubtitle: metadata.urlsubtitle ? metadata.urlsubtitle : null,
                     country: metadata.country,
                     imageOne: metadata.imageOne ? metadata.imageOne : null,
                     imageTwo: metadata.imageTwo ? metadata.imageTwo : null,
@@ -177,60 +175,6 @@ const getInformation = () => {
     return
 }
 
-const getSubSubtitles = () => {
-    fs.readdir(dirSubSubtitlePath, (err, files) => {
-        if (err) {
-            return console.log("Failed to list contents of directory: " + err)
-        }
-        let ilist = []
-        files.forEach((file, i) => {
-            let obj = {}
-            let post
-            fs.readFile(`${dirSubSubtitlePath}/${file}`, "utf8", (err, contents) => {
-                const getMetadataIndices = (acc, elem, i) => {
-                    if (/^---/.test(elem)) {
-                        acc.push(i)
-                    }
-                    return acc
-                }
-                const parseMetadata = ({lines, metadataIndices}) => {
-                    if (metadataIndices.length > 0) {
-                        let metadata = lines.slice(metadataIndices[0] + 1, metadataIndices[1])
-                        metadata.forEach(line => {
-                            obj[line.split(": ")[0]] = line.split(": ")[1]
-                        })
-                        return obj
-                    }
-                }
-                const lines = contents.split("\n")
-                const metadataIndices = lines.reduce(getMetadataIndices, [])
-                const metadata = parseMetadata({lines, metadataIndices})
-                const date = new Date()
-                const timestamp = date.getTime() / 1000
-                post = {
-                    id: timestamp,
-                    subtitle: metadata.subtitle,
-                    urlsubtitle: metadata.urlsubtitle,
-                    subsubtitle: metadata.subsubtitle,
-                    urlsubsubtitle: metadata.urlsubsubtitle,
-                    country: metadata.country,
-                }
-                subsubtitleList.push(post)
-                ilist.push(i)
-                if (ilist.length === files.length) {
-                    const sortedList = subsubtitleList.sort ((a, b) => {
-                        return a.id < b.id ? 1 : -1
-                    })
-                    let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/infoJson/subsubtitles.json", data)
-                }
-            })
-        })
-    })
-    return
-}
-
 getTitles()
 getSubtitles()
-getSubSubtitles()
 getInformation()

@@ -30,18 +30,6 @@ collections:
       - {label: "SubTitulo", name: "subtitle", widget: "string"}
       - {label: "Url propia", name: "urlsubtitle", widget: "string"}
       - {label: "Pais", name: "country", widget: "string"}
-  - name: "subsubtitle" # Used in routes, e.g., /admin/collections/blog
-    label: "Otro SubTitulo" # Used in the UI
-    folder: "src/info/subsubtitle" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{subtitle}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
-      - {label: "Titulo Subtitulo", name: "subtitle", widget: "string"}
-      - {label: "Url Subtitulo", name: "urlsubtitle", widget: "string"}
-      - {label: "Sub-SubTitulo", name: "subsubtitle", widget: "string"}
-      - {label: "Url propia", name: "urlsubsubtitle", widget: "string"}
-      - {label: "Pais", name: "country", widget: "string"}
   - name: "info" # Used in routes, e.g., /admin/collections/blog
     label: "Informacion" # Used in the UI
     folder: "src/info/information" # The path to the folder where the documents are stored
@@ -56,5 +44,6 @@ collections:
       - {label: "Imagen 2", name: "imageTwo", widget: "image", required: false}
       - {label: "Imagen 3", name: "imageThree", widget: "image", required: false}
       - {label: "Imagen 4", name: "imageFour", widget: "image", required: false}
+      - {label: "Video", name: "video", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
 
