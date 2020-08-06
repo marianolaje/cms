@@ -2,7 +2,7 @@
 layout: subtitle
 subtitle: Términos y Condiciones
 urlsubtitle: /sobre/terminos-y-condiciones
-country: Argentina
+country: Argentina, Chile y Mexico
 ---
 Siempre que tengas una duda sobre nuestros términos y condiciones puedes [consultar este link](https://pago46.com/terminos-y-condiciones/)
 
