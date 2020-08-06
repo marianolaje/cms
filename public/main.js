@@ -28,6 +28,7 @@ const getTitles = () => {
                     if (metadataIndices.length > 0) {
                         let metadata = lines.slice(metadataIndices[0] + 1, metadataIndices[1])
                         metadata.forEach(line => {
+                            line = line.replace('\r', '')
                             obj[line.split(": ")[0]] = line.split(": ")[1]
                         })
                         return obj
@@ -78,14 +79,16 @@ const getSubtitles = () => {
                     if (metadataIndices.length > 0) {
                         let metadata = lines.slice(metadataIndices[0] + 1, metadataIndices[1])
                         metadata.forEach(line => {
+                            line = line.replace('\r', '')
                             obj[line.split(": ")[0]] = line.split(": ")[1]
+
                         })
                         return obj
                     }
                 }
                 const lines = contents.split("\n")
                 const metadataIndices = lines.reduce(getMetadataIndices, [])
-                const metadata = parseMetadata({lines, metadataIndices})
+                let metadata = parseMetadata({lines, metadataIndices})
                 const date = new Date()
                 const timestamp = date.getTime() / 1000
                 post = {
@@ -132,6 +135,7 @@ const getInformation = () => {
                     if (metadataIndices.length > 0) {
                         let metadata = lines.slice(metadataIndices[0] + 1, metadataIndices[1])
                         metadata.forEach(line => {
+                            line = line.replace('\r', '')
                             obj[line.split(": ")[0]] = line.split(": ")[1]
                         })
                         return obj
@@ -151,7 +155,7 @@ const getInformation = () => {
                 const timestamp = date.getTime() / 1000
                 post = {
                     id: timestamp,
-                    subtitle: metadata.subtitle,
+                    title: metadata.subtitle,
                     urlsubtitle: metadata.urlsubtitle,
                     country: metadata.country,
                     imageOne: metadata.imageOne ? metadata.imageOne : null,
