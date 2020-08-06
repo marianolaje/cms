@@ -1,0 +1,32 @@
+---
+layout: subtitle
+subtitle: ¿Donde veo los productos y servicios que puedo ofrecer?
+urlsubtitle: /socio46/mis-ofertas
+country: Argentina
+---
+Los Productos y Servicios los puedes encontrar en nuestra Tienda, dentro de la App de PAGO46. 
+
+Debe ingresar a la App de PAGO46 con su correo electrónico de registro y contraseña. 
+
+Seleccione el icono “Tienda” que se encuentra en la parte inferior de la pantalla. 
+
+Podrá visualizar los siguientes productos: 
+
+Recarga prepaga a Claro, Movistar, Tuenti y Personal.
+
+Recarga SUBE. 
+
+GiftCards para Consolas y VideoJuegos.
+ 
+
+Recuerda que puedes realizar colección de dinero en efectivo utilizando el lector de Códigos QR que se encuentra en la parte superior derecha  de todas las pantallas de la App, podrá recibir pagos de: 
+
+Rappi
+
+Glovo
+
+Movistar
+
+UBER
+
+Te sugerimos de todos modos que visites la [sección Tienda](/tienda) para ver el detalle de cada uno.
