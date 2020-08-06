@@ -20,4 +20,4 @@ Al seleccionar Recargar y luego Aceptar la transacción, recibirá un correo de 
 
 ¿Tienes problemas para canjear tu Gift card?
 
-Completá este [ormulario para que podamos ayudarte.](/contactanos/14)
+Completá este [formulario para que podamos ayudarte.](/contactanos/14)
