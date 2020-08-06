@@ -2,7 +2,7 @@
 layout: subtitle
 subtitle: ¿Como funciona PAGO46?
 urlsubtitle: /sobre/como-funciona-pago46
-country: Argentina
+country: Argentina, Chile y Mexico
 imageOne: /images/ayuda-sobrepago46-comofuncionapago46-imagen1-v2.jpg
 imageTwo: /images/ayuda-sobrepago46-comofuncionapago46-imagen2-v2.jpg
 imageThree: /images/ayuda-sobrepago46-comofuncionapago46-imagen3-v2.jpg
