@@ -2,7 +2,7 @@
 layout: subtitle
 subtitle: Primeros pasos, registro e información para comenzar a utilizar PAGO46
 urlsubtitle: /sobre/primeros-pasos
-country: Argentina
+country: Argentina, Chile y Mexico
 video: https://www.youtube.com/embed/c8sx5LUDkS0
 ---
 ¡Bienvenido a PAGO46!
