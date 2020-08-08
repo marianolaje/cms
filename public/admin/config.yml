@@ -47,6 +47,5 @@ collections:
       - {label: "Imagen 3", name: "imageThree", widget: "image", required: false}
       - {label: "Imagen 4", name: "imageFour", widget: "image", required: false}
       - {label: "Video", name: "video", widget: "string", required: false}
-      - {label: "Relevancia (del 0 al 10)", name: "score", widget: "number", min: 0, max: 10}
       - {label: "Body", name: "body", widget: "markdown"}
 

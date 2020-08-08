@@ -166,7 +166,6 @@ const getInformation = () => {
                     imageFour: metadata.imageFour ? metadata.imageFour : null,
                     video: metadata.video ? metadata.video : null,
                     content: content ? content : "No content given",
-                    score: metadata.score
                 }
                 informationList.push(post)
                 ilist.push(i)
