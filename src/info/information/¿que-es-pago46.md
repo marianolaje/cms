@@ -10,4 +10,4 @@ Formamos una red colaborativa entre Socios46, Comercios y Consumidores, donde ca
 
 Los Consumidores pueden acceder a productos digitales pagando en efectivo a un Socio46, quien recibe un ingreso adicional por recibir ese pago.
 
-Los Socios46 simplemente con su celular y nuestra APP están siempre disponibles, en cualquier momento y lugar."
+Los Socios46 simplemente con su celular y nuestra APP están siempre disponibles, en cualquier momento y lugar.
