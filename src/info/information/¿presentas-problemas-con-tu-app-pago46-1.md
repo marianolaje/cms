@@ -12,4 +12,4 @@ Si presentas alguno de los siguientes problemas con tu App PAGO46:
 - Problema "Venta Cancelada". 
 
 Si el problema que presenta tiene relación con el funcionamiento de la App debes llenar el siguiente 
-[Formulario](/contactanos/16). Si tu problema no aparece en el listado, indícanos el problema en la descripción del formulario para ayudar a resolver. 
+[Formulario](/contactanos/18). Si tu problema no aparece en el listado, indícanos el problema en la descripción del formulario para ayudar a resolver. 
