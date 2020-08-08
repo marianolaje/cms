@@ -43,7 +43,8 @@ const getTitles = () => {
                     id: timestamp,
                     title: metadata.title ? metadata.title : "No title given",
                     icon: metadata.icon ? metadata.icon : null,
-                    urltitle: metadata.urltitle
+                    urltitle: metadata.urltitle,
+                    score: metadata.score
                 }
                 titlelist.push(post)
                 ilist.push(i)
@@ -93,12 +94,13 @@ const getSubtitles = () => {
                 const timestamp = date.getTime() / 1000
                 post = {
                     id: timestamp,
-                    subtitle: metadata.title,
-                    urlsubtitle: metadata.urltitle,
-                    title: metadata.titleFather,
+                    title: metadata.title,
+                    urltitle: metadata.urltitle,
+                    titlefather: metadata.titleFather,
                     icon: metadata.icon ? metadata.icon : null,
-                    urltitle: metadata.urltitleFather,
-                    country: metadata.country
+                    urltitlefather: metadata.urltitleFather,
+                    country: metadata.country,
+                    score: metadata.score
                 }
                 subtitlelist.push(post)
                 ilist.push(i)
@@ -164,6 +166,7 @@ const getInformation = () => {
                     imageFour: metadata.imageFour ? metadata.imageFour : null,
                     video: metadata.video ? metadata.video : null,
                     content: content ? content : "No content given",
+                    score: metadata.score
                 }
                 informationList.push(post)
                 ilist.push(i)
