@@ -9,7 +9,9 @@ video: https://www.youtube.com/embed/c8sx5LUDkS0
 
 Seguramente quieres ser Socio46 o saber como seguir luego de registrarte. Tranquilo, aquí te lo contamos todo...
 
-Paso a paso para ser Socio46\n\uD83D\uDCF1 Descarga a tu celular la app de PAGO46 
+Paso a paso para ser Socio46 
+
+Descarga a tu celular la app de PAGO46 
 
 [App Store](https://apps.apple.com/cl/app/pago46/id1372503177)
 
