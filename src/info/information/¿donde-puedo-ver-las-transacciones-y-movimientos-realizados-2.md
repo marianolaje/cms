@@ -26,4 +26,4 @@ Para verlo, puedes realizar los mismos pasos, pero en lugar de tocar en Movimien
 
 Allí podrás filtrar por mes, semana o una fecha personalizada. 
 
-Es muy importante que puedas ver todas estas secciones, ya que te servirán para realizar la facturación a PAGO46."
+Es muy importante que puedas ver todas estas secciones, ya que te servirán para realizar la facturación a PAGO46.
