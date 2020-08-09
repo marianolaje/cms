@@ -1,7 +1,7 @@
 ---
 layout: subtitle
 subtitle: Auto pagar tu deuda de Uber nunca fue tan simple
-urlsubtitle: pagos/autopagar-uber
+urlsubtitle: /pagos/autopagar-uber
 country: Argentina
 video: https://www.youtube.com/embed/v-QCHxc13Ng
 ---
