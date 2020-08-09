@@ -16,9 +16,9 @@ Glovo➡️ [Como pago mi deuda de Glovo](https://pago46.com/como-hacer-para-bal
 
 ➡️ [Como Auto Pagar mi deuda de Glovo](https://pago46.com/auto-pagar-tu-deuda-de-glovo-nunca-fue-tan-facil/)
 
-Uber➡️ [Como pago mi deuda de Uber](https://soporte.pago46.com/hc/es/articles/360044273571)
+Uber➡️ [Como pago mi deuda de Uber](/pagos/pagar-uber)
 
-➡️ [Como Auto Pagar mi deuda de Uber](https://soporte.pago46.com/hc/es/articles/360044273551)
+➡️ [Como Auto Pagar mi deuda de Uber](/pagos/autopagar-uber)
 
 ¿No encuentras donde realizar el pago?
 Encuentra en [este Mapa](https://www.google.com/maps/d/viewer?ll=-35.32184388854654,-59.74867747952695&z=8&mid=1eWeVQmvWN5Nhc0upmAIXAdejkrJicdtf) el Socio46 más cercano.
