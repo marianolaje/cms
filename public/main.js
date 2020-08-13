@@ -182,6 +182,8 @@ const getInformation = () => {
     return
 }
 
+console.log("hola")
+
 getTitles()
 getSubtitles()
 getInformation()

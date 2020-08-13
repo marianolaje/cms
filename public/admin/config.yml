@@ -17,7 +17,7 @@ collections:
       - {label: "Titulo", name: "title", widget: "string"}
       - {label: "Icono", name: "icon", widget: "image"}
       - {label: "Url", name: "urltitle", widget: "string"}
-      - {label: "Relevancia (del 0 al 10)", name: "score", widget: "number", min: 0, max: 10}
+      - {label: "Relevancia (del 0 al 9)", name: "score", widget: "number", min: 0, max: 9}
   - name: "subtitle" # Used in routes, e.g., /admin/collections/blog
     label: "SubTitulo" # Used in the UI
     folder: "src/info/subtitle" # The path to the folder where the documents are stored
@@ -31,7 +31,7 @@ collections:
       - {label: "Icono", name: "icon", widget: "image"}
       - {label: "Url Padre", name: "urltitleFather", widget: "string"}
       - {label: "Pais", name: "country", widget: "string"}
-      - {label: "Relevancia (del 0 al 10)", name: "score", widget: "number", min: 0, max: 10}
+      - {label: "Relevancia (del 0 al 9)", name: "score", widget: "number", min: 0, max: 9}
   - name: "info" # Used in routes, e.g., /admin/collections/blog
     label: "Informacion" # Used in the UI
     folder: "src/info/information" # The path to the folder where the documents are stored
