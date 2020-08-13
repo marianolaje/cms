@@ -59,6 +59,8 @@ collections:
       - {label: "ID de el/los campo/s", name: "id", widget: "string"}
       - {label: "Nombre del campo", name: "name", widget: "string"}
       - {label: "Texto de ayuda", name: "helperText", widget: "string", required: false}
+      - {label: "Fecha", name: "dateCheckbox", widget: "boolean", default: false, required: false}
+      - {label: "Hora", name: "hourCheckbox", widget: "boolean", default: false, required: false}
   - name: "tagZendesk" # Used in routes, e.g., /admin/collections/blog
     label: "Tags de Zendesk" # Used in the UI
     folder: "src/info/tagZendesk" # The path to the folder where the documents are stored
