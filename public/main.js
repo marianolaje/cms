@@ -220,9 +220,6 @@ const getForms = () => {
                 post = {
                     id: metadata.id,
                     label: metadata.title,
-                    idFormType: metadata.idFormType,
-                    name: metadata.name,
-                    helperText: metadata.helperText ? metadata.helperText : null,
                 }
                 formList.push(post)
                 ilist.push(i)
@@ -271,6 +268,9 @@ const getFormFields = () => {
                 post = {
                     id: metadata.id,
                     label: metadata.title,
+                    idFormType: metadata.idFormType,
+                    name: metadata.name,
+                    helperText: metadata.helperText ? metadata.helperText : null,
                 }
                 formFieldsList.push(post)
                 ilist.push(i)

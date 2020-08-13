@@ -54,6 +54,15 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
+        - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
+        - {label: "Titulo del formulario", name: "title", widget: "string"}
+        - {label: "ID de formulario", name: "id", widget: "string"}
+- name: "formFields" # Used in routes, e.g., /admin/collections/blog
+    label: "Campos de los Formularios" # Used in the UI
+    folder: "src/info/formFields" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
       - {label: "Titulo del campo", name: "title", widget: "string"}
       - {label: "ID de el/los campo/s", name: "id", widget: "string"}
@@ -61,15 +70,6 @@ collections:
       - {label: "Texto de ayuda", name: "helperText", widget: "string", required: false}
       - {label: "Fecha", name: "dateCheckbox", widget: "boolean", default: false, required: false}
       - {label: "Hora", name: "hourCheckbox", widget: "boolean", default: false, required: false}
-  - name: "formFields" # Used in routes, e.g., /admin/collections/blog
-    label: "Campos de los Formularios" # Used in the UI
-    folder: "src/info/formFields" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
-      - {label: "Titulo del formulario", name: "title", widget: "string"}
-      - {label: "ID de formulario", name: "id", widget: "string"}
   - name: "tagZendesk" # Used in routes, e.g., /admin/collections/blog
     label: "Tags de Zendesk" # Used in the UI
     folder: "src/info/tagZendesk" # The path to the folder where the documents are stored
