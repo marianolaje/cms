@@ -59,7 +59,7 @@ const getTitles = () => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/infoJson/titles.json", data)
+                    fs.writeFileSync("src/mocks/infoJson/titles.json", data)
                 }
             })
         })
@@ -115,7 +115,7 @@ const getSubtitles = () => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/infoJson/subtitles.json", data)
+                    fs.writeFileSync("src/mocks/infoJson/subtitles.json", data)
                 }
             })
         })
@@ -180,7 +180,7 @@ const getInformation = () => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/infoJson/information.json", data)
+                    fs.writeFileSync("src/mocks/infoJson/information.json", data)
                 }
             })
         })
@@ -231,7 +231,7 @@ const getForms = () => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/formJson/form.json", data)
+                    fs.writeFileSync("src/mocks/formJson/form.json", data)
                 }
             })
         })
@@ -279,7 +279,7 @@ const getFormFields = () => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/formJson/formFields.json", data)
+                    fs.writeFileSync("src/mocks/formJson/formFields.json", data)
                 }
             })
         })
@@ -332,7 +332,7 @@ const getTagZendesk = () => {
                         return a.id < b.id ? 1 : -1
                     })
                     let data = JSON.stringify(sortedList)
-                    fs.writeFileSync("src/formJson/tagZendesk.json", data)
+                    fs.writeFileSync("src/mocks/formJson/tagZendesk.json", data)
                 }
             })
         })
