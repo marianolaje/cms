@@ -218,6 +218,7 @@ const getForms = () => {
                 post = {
                     id: metadata.id,
                     label: metadata.title,
+                    idFormType: metadata.idFormType,
                     helperText: metadata.helperText ? metadata.helperText : null,
                 }
                 informationList.push(post)

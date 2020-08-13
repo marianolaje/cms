@@ -56,6 +56,7 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
       - {label: "Titulo del Formulario", name: "title", widget: "string"}
+      - {label: "ID de el/los Formulario/s", name: "id", widget: "string"}
       - {label: "Texto de ayuda", name: "helperText", widget: "string", required: false}
   - name: "tagZendesk" # Used in routes, e.g., /admin/collections/blog
     label: "Tags de Zendesk" # Used in the UI
