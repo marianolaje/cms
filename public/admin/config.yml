@@ -48,4 +48,23 @@ collections:
       - {label: "Imagen 4", name: "imageFour", widget: "image", required: false}
       - {label: "Video", name: "video", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-
+  - name: "forms" # Used in routes, e.g., /admin/collections/blog
+    label: "Forms" # Used in the UI
+    folder: "src/info/form" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
+      - {label: "Titulo del Formulario", name: "title", widget: "string"}
+      - {label: "Texto de ayuda", name: "helperText", widget: "string", required: false}
+  - name: "tagZendesk" # Used in routes, e.g., /admin/collections/blog
+    label: "Tags de Zendesk" # Used in the UI
+    folder: "src/info/tagZendesk" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{title}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
+      - {label: "Titulo del Formulario", name: "title", widget: "string"}
+      - {label: "Tag Uno", name: "tagOne", widget: "string"}
+      - {label: "Tag Dos (Pais)", name: "tagTwo", widget: "string", required: false}
+      - {label: "Tag Tres (Socio/Buyer)", name: "tagThree", widget: "string", required: false}
