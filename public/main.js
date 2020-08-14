@@ -271,6 +271,8 @@ const getFormFields = () => {
                     idFormType: metadata.idFormType,
                     name: metadata.name,
                     helperText: metadata.helperText ? metadata.helperText : null,
+                    dateCheckbox: metadata.dateCheckbox,
+                    hourCheckbox: metadata.hourCheckbox
                 }
                 formFieldsList.push(post)
                 ilist.push(i)
