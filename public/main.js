@@ -208,6 +208,8 @@ const getForms = () => {
                     if (metadataIndices.length > 0) {
                         let metadata = lines.slice(metadataIndices[0] + 1, metadataIndices[1])
                         metadata.forEach(line => {
+                            line = line.replace('\"', '')
+                            line = line.replace('\"', '')
                             line = line.replace('\r', '')
                             obj[line.split(": ")[0]] = line.split(": ")[1]
                         })
@@ -256,6 +258,8 @@ const getFormFields = () => {
                     if (metadataIndices.length > 0) {
                         let metadata = lines.slice(metadataIndices[0] + 1, metadataIndices[1])
                         metadata.forEach(line => {
+                            line = line.replace('\"', '')
+                            line = line.replace('\"', '')
                             line = line.replace('\r', '')
                             obj[line.split(": ")[0]] = line.split(": ")[1]
                         })
