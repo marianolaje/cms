@@ -17,6 +17,6 @@ Transferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son sopor
 
 Recuerde que para que su transferencia bancaria se haga efectiva, el DNI de la cuenta depositante debe ser igual al DNI afiliado a su cuenta de PAGO46.
 
-Transferencias realizadas por un tercero pueden tardar hasta 72 horas en verse reflejada en su aplicación luego de llenado el [siguiente formulario.](/contactanos/5)
+Transferencias realizadas por un tercero pueden tardar hasta 72 horas en verse reflejada en su aplicación luego de llenado el [siguiente formulario.](/contact-us/5)
 
-Transferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando [este formulario.](/contactanos/2)
+Transferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando [este formulario.](/contact-us/2)
