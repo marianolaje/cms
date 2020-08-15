@@ -14,4 +14,4 @@ Lo primero que necesitas sabes es que, según la empresa para la que trabajes po
 
 Si pagaste con un Socio46 o realizaste Auto Pago: Envíanos el correo con el que realizaste la generación del Código Qr o el correo de Socio46 con el que hiciste el auto pago. Si tienes el correo de transacción Exitosa también adjuntarlo para poder corroborar aún mas rápido tu pago.
 
-Aquí te dejamos el link al [formulario para que cargues tu reclamo.](/contactanos/13)
+Aquí te dejamos el link al [formulario para que cargues tu reclamo.](/contact-us/13)
