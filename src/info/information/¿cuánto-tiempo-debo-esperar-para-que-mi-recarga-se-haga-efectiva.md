@@ -11,7 +11,7 @@ Recuerda siempre crear el Ticket de carga antes de realizar la transferencia. Es
 • El monto transferido sea igual al ingresado en el Ticket de carga.
 • La transferencia debe ser realizada antes de las 20:00 horas, transferencias realizadas luego de este horario serán acreditadas el día siguiente.
 
-Transferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando [este formulario.](/contactanos/2)
+Transferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando [este formulario.](/contact-us/2)
 
 ¿Realizaste una transferencia desde una cuenta NO propia?
 
