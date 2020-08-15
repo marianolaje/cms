@@ -23,10 +23,10 @@ Descarga a tu celular la app de PAGO46
 
 ❗️ Revisa tu correo, si hemos tenido problemas con tus datos o imagen de documento, estaremos poniéndonos en contacto. 
 
-¿Pasaron más de 24 horas? [Indícanos aquí tu correo.](/contactanos/16)
+¿Pasaron más de 24 horas? [Indícanos aquí tu correo.](/contact-us/16)
 
 Verifica el correo con el que te registraste a PAGO46, te llegará un correo para que puedas hacerlo. 
 
-¿No te llegó el correo de Registro? [Indícanos tu correo.](/contactanos/15)
+¿No te llegó el correo de Registro? [Indícanos tu correo.](/contact-us/15)
 
 Si ya seguiste todos estos pasos estás listo para hacer tu primera recarga y comenzar a ganar dineo con PAGO46. [Aquí te contamos todo](/recarga/como-transferencia)
