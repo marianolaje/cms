@@ -20,4 +20,4 @@ Si pagaste en Pago fácil o Rapi pago:  Envíanos el comprobante de pago y el co
 
 Si pagaste con un Socio46 o realizaste Auto Pago: Envíanos el correo con el que realizaste la generación del Código Qr o el correo de Socio46 con el que hiciste el auto pago. Si tienes el correo de transacción Exitosa también adjuntarlo para poder corroborar aún mas rápido tu pago.
 
-Aquí te dejamos el link al [formulario para que cargues tu reclamo.](/contactanos/11)
+Aquí te dejamos el link al [formulario para que cargues tu reclamo.](/contact-us/11)
