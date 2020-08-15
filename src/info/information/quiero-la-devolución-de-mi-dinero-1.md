@@ -6,6 +6,6 @@ country: Chile
 ---
 Lamentamos que hayas tenido una mala experiencia con PAGO46.
 
-Para realizar la devolución de su dinero debe llenar el siguiente [formulario de devolución.](/contactanos/3)
+Para realizar la devolución de su dinero debe llenar el siguiente [formulario de devolución.](/contact-us/3)
 
 Recuerda que la devolución puede tardar hasta 10 días hábiles en realizarse.
