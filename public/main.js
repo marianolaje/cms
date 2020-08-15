@@ -43,10 +43,8 @@ const getTitles = () => {
                 const lines = contents.split("\n")
                 const metadataIndices = lines.reduce(getMetadataIndices, [])
                 const metadata = parseMetadata({lines, metadataIndices})
-                const date = new Date()
-                const timestamp = date.getTime() / 1000
                 post = {
-                    id: timestamp,
+                    id: Math.floor(Math.random() * 100000000000),
                     title: metadata.title ? metadata.title : "No title given",
                     icon: metadata.icon ? metadata.icon : null,
                     urltitle: metadata.urltitle,
@@ -96,10 +94,8 @@ const getSubtitles = () => {
                 const lines = contents.split("\n")
                 const metadataIndices = lines.reduce(getMetadataIndices, [])
                 let metadata = parseMetadata({lines, metadataIndices})
-                const date = new Date()
-                const timestamp = date.getTime() / 1000
                 post = {
-                    id: timestamp,
+                    id: Math.floor(Math.random() * 100000000000),
                     title: metadata.title,
                     urltitle: metadata.urltitle,
                     titlefather: metadata.titleFather,
@@ -159,10 +155,8 @@ const getInformation = () => {
                 const metadataIndices = lines.reduce(getMetadataIndices, [])
                 const metadata = parseMetadata({lines, metadataIndices})
                 const content = parseContent({lines, metadataIndices})
-                const date = new Date()
-                const timestamp = date.getTime() / 1000
                 post = {
-                    id: timestamp,
+                    id: Math.floor(Math.random() * 100000000000),
                     title: metadata.subtitle,
                     urlsubtitle: metadata.urlsubtitle,
                     country: metadata.country,
