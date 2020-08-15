@@ -20,5 +20,4 @@ Cuando el SOCIO46 escanee el código QR del consumidor, se realiza el pago en ef
 ¡Listo!
 Recibe tu comprobante.
 
-Al finalizar la transacción ambos recibirán un comprobante por correo y listo.",
-          
+Al finalizar la transacción ambos recibirán un comprobante por correo y listo.
