@@ -24,4 +24,4 @@ Cargar tu billetera de PAGO46 con una transferencia bancaria es muy fácil, solo
 • La transferencia debe ser realizada antes de las 20:00 horas, transferencias realizadas luego de este horario serán acreditadas el día siguiente.
 • El DNI del propietario de la cuenta bancaria debe coincidir con el DNI registrado en tu App de PAGO46.
 
-Transferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando [este formulario.](/contactanos/2)
+Transferencias realizadas desde UALA, Mercado Pago y métodos DEBIN no son soportadas por sistema, debe solicitar la devolución de su dinero en caso de haber utilizado uno de estos métodos completando [este formulario.](/contact-us/2)
