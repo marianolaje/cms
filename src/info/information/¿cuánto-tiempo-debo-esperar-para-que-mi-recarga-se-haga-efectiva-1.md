@@ -20,4 +20,4 @@ Recuerda siempre crear el Ticket de carga antes de realizar la transferencia. Es
 
 Recuerde que para que su transferencia bancaria se haga efectiva, el RFC de la cuenta depositante debe ser igual al RFC afiliado a su cuenta de PAGO46.
 
-Transferencias realizadas por un tercero pueden tardar hasta 72 horas en verse reflejada en su aplicación, a partir del momento que el dinero se vea reflejado en nuestra cuenta bancaria, tiempo dependerá del tipo de transferencia realizada ( SPEI, TEF ), luego de llenado el [siguiente formulario.](/contactanos/7)
+Transferencias realizadas por un tercero pueden tardar hasta 72 horas en verse reflejada en su aplicación, a partir del momento que el dinero se vea reflejado en nuestra cuenta bancaria, tiempo dependerá del tipo de transferencia realizada ( SPEI, TEF ), luego de llenado el [siguiente formulario.](/contact-us/7)
