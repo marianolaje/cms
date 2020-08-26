@@ -2,6 +2,6 @@
 layout: title
 title: Tienda
 icon: /images/tienda.png
-urltitle: /store
+urltitle: /tienda
 score: 1
 ---
