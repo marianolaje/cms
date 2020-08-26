@@ -1,7 +1,7 @@
 ---
 layout: subtitle
 subtitle: ¿Que es PAGO46?
-urlsubtitle: /sobre/que-es-pago46
+urlsubtitle: /sobre-pago46/que-es-pago46
 country: Argentina, Chile y Mexico
 ---
 PAGO46 es una plataforma de pagos en efectivo para compras on line, sin necesidad de tener tarjeta de crédito o cuenta bancaria.
