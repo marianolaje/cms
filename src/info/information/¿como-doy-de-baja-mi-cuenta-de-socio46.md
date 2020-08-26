@@ -1,6 +1,6 @@
 ---
 layout: subtitle
-subtitle: ¿Como doy de baja mi cuenta de Socio46?
+subtitle: ¿Cómo doy de baja mi cuenta de Socio46?
 urlsubtitle: /socio46/dar-de-baja
 country: Argentina
 ---
