@@ -2,6 +2,6 @@
 layout: title
 title: Pagos
 icon: /images/pagos.png
-urltitle: /payments
+urltitle: /pagos
 score: 7
 ---
