@@ -1,6 +1,6 @@
 ---
 layout: subtitle
-subtitle: ¿Como retiro mis comisiones y cuáles son?
+subtitle: ¿Cómo retiro mis comisiones y cuáles son?
 urlsubtitle: /socio46/mis-comisiones
 country: Chile
 ---
