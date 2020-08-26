@@ -2,6 +2,6 @@
 layout: title
 title: Recarga de saldo
 icon: /images/recarga-saldo.png
-urltitle: /recarga
+urltitle: /recharge
 score: 5
 ---
