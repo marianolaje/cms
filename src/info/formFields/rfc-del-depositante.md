@@ -5,6 +5,7 @@ id: 4, 7, 10
 name: depositorRFC
 helperText: Coloque el RFC del propietario de la cuenta bancaria y adjunte el
   comprobante de la transferencia
+required: true
 dateCheckbox: false
 hourCheckbox: false
 ---
