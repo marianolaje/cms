@@ -4,14 +4,30 @@ subtitle: Pruebaa
 urlsubtitle: /prueba/pruebaa
 country: Argentina, Chile, Mexico
 ---
-Ingreso una imagen cualquiera
+palabra en bold -> **bold**\
+\
+palabra en cursiva -> *cursiva*
 
-![Alt Text de la img](/images/ayuda-sobrepago46-comofuncionapago46-imagen1-v2.jpg "Titulo de la IMG")
 
-Y texto entre medio para que se vea la diferencia.
 
-Textooo!
+texto entre <>`texto entre <>`
 
-Y también un LINK [link](www.link.com)
+``
 
-Y texto despues del link para cerrar
+``[link.com](link.com)``
+
+``
+
+# `Heading 1`
+
+> cita textual
+
+* punto
+
+  1. numero
+
+
+
+```
+code block
+```
