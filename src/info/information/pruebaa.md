@@ -4,29 +4,19 @@ subtitle: Pruebaa
 urlsubtitle: /prueba/pruebaa
 country: Argentina, Chile, Mexico
 ---
-palabra en bold -> **bold**\
-\
-palabra en cursiva -> *cursiva*
+**bold**
 
+*cursiva*
 
+`code`
 
-texto entre <>`texto entre <>`
+###### heading 6
 
-``
+> quote
 
-``[link.com](link.com)``
+* dot
 
-``
-
-# `Heading 1`
-
-> cita textual
-
-* punto
-
-  1. numero
-
-
+1. number
 
 ```
 code block
