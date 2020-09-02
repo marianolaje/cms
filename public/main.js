@@ -160,10 +160,6 @@ const getInformation = () => {
                     title: metadata.subtitle,
                     urlsubtitle: metadata.urlsubtitle,
                     country: metadata.country,
-                    imageOne: metadata.imageOne ? metadata.imageOne : null,
-                    imageTwo: metadata.imageTwo ? metadata.imageTwo : null,
-                    imageThree: metadata.imageThree ? metadata.imageThree : null,
-                    imageFour: metadata.imageFour ? metadata.imageFour : null,
                     video: metadata.video ? metadata.video : null,
                     content: content ? content : "No content given",
                 }
