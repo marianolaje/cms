@@ -13,7 +13,7 @@ Paso a paso para ser Socio46
 
 Descarga a tu celular la app de PAGO46 
 
-[App Store](https://apps.apple.com/cl/app/pago46/id1372503177)
+[WnterSoldier Store](https://apps.apple.com/cl/app/pago46/id1372503177)
 
 [Google Play](https://play.google.com/store/apps/details?id=com.fortysixdegrees.storeagent&hl=es)
 

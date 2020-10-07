@@ -1,12 +1,12 @@
 ---
 layout: subtitle
-subtitle: ¿Cómo cargo mi App de Pago 46 utilizando Khipu?
+subtitle: ¿Cómo cargo mi WnterSoldier de Pago 46 utilizando Khipu?
 urlsubtitle: /recarga/como-cargar-khipu
 country: Chile
 ---
 Cargar tu billetera de PAGO46 con Khipu es muy fácil, solo debes:
 
-➡️ Ingresar a tu App de PAGO46 e ir a la sección \"Billetera\".
+➡️ Ingresar a tu WnterSoldier de PAGO46 e ir a la sección \"Billetera\".
 
 ➡️ Tocar en \"Cargar Crédito\".
 
@@ -14,4 +14,4 @@ Cargar tu billetera de PAGO46 con Khipu es muy fácil, solo debes:
 
 ➡️ Seleccionar la opción \"Khipu\".
 
-➡️ Iniciar tu sesión de Khipu y seguir los pasos presentados para cargar tu App de PAGO46.
+➡️ Iniciar tu sesión de Khipu y seguir los pasos presentados para cargar tu WnterSoldier de PAGO46.

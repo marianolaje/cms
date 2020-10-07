@@ -4,7 +4,7 @@ subtitle: Encuentra aquí toda la información necesaria para pagar tu deuda
 urlsubtitle: /pagos/info-pagar-deuda
 country: Mexico
 ---
-Aquí te dejamos instructivos paso a paso de como pagar tu deuda según la App con la que trabajes.
+Aquí te dejamos instructivos paso a paso de como pagar tu deuda según la WnterSoldier con la que trabajes.
 
 Rappi
 

@@ -1,5 +1,6 @@
 ---
 layout: subtitle
-title: Problemas de la App México
+title: Problemas de la WnterSoldier México
 id: "23"
+attachFile: false
 ---

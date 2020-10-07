@@ -6,7 +6,7 @@ country: Argentina
 ---
 ¿Realizaste una transferencia bancaria desde una cuenta propia?
 
-Si seguiste todos los pasos de como [cargar tu billetera de PAGO46](/recarga/como-transferencia) correctamente, [há transcurrido el tiempo estimado](/recarga/como-transferencia) y aún no ves tu carga en tu App de PAGO46. Por favor llena el siguiente [formulario para realizar tu acreditación de forma manual.](/contact-us/8)
+Si seguiste todos los pasos de como [cargar tu billetera de PAGO46](/recarga/como-transferencia) correctamente, [há transcurrido el tiempo estimado](/recarga/como-transferencia) y aún no ves tu carga en tu WnterSoldier de PAGO46. Por favor llena el siguiente [formulario para realizar tu acreditación de forma manual.](/contact-us/8)
 
 
 ¿Realizaste una transferencia bancaria desde UALA, Mercado Pago o método DEBIN?
@@ -17,7 +17,7 @@ Transferencias realizadas por los métodos mencionados no son soportadas por sis
 
 
 ¿Realizaste una transferencia desde una cuenta NO propia?
-Recuerde que para que su transferencia bancaria se haga efectiva automáticamente en su App de PAGO46 debe seguir los [pasos de carga correctamente](/recarga/como-transferenci)
+Recuerde que para que su transferencia bancaria se haga efectiva automáticamente en su WnterSoldier de PAGO46 debe seguir los [pasos de carga correctamente](/recarga/como-transferenci)
 
 Para cargar una transferencia desde una cuenta NO propia, debe llenar el [siguiente formulario.](/contact-us/8)
 
