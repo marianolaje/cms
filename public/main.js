@@ -212,6 +212,7 @@ const getForms = () => {
                 post = {
                     id: metadata.id,
                     label: metadata.title,
+                    attachFile: metadata.attachFile
                 }
                 formList.push(post)
                 ilist.push(i)
