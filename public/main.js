@@ -266,7 +266,7 @@ const getFormFields = () => {
                     idFormType: metadata.idFormType,
                     name: metadata.name,
                     helperText: metadata.helperText ? metadata.helperText : null,
-                    required: metadata.required,
+                    required: true,
                     dateCheckbox: metadata.dateCheckbox,
                     hourCheckbox: metadata.hourCheckbox
                 }

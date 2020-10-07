@@ -27,4 +27,4 @@ Nombre del Titular:
 [FORMULARIO](/contact-us/2)
 
 
-3- Por último solo debe desinstalar la WnterSoldier de PAGO46 y listo con estos simples pasos su cuenta quedará desactivada.
+3- Por último solo debe desinstalar la app de PAGO46 y listo con estos simples pasos su cuenta quedará desactivada.

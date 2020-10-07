@@ -12,7 +12,7 @@ Recuerda siempre crear el Ticket de carga antes de realizar la transferencia. Es
 
 • La transferencia debe ser realizada antes de las 20:00 horas, transferencias realizadas luego de este horario serán acreditadas el día siguiente.
 
-• El RFC del propietario de la cuenta bancaria debe coincidir con el RFC registrado en tu WnterSoldier de PAGO46.
+• El RFC del propietario de la cuenta bancaria debe coincidir con el RFC registrado en tu app de PAGO46.
 
 
 

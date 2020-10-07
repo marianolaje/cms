@@ -4,9 +4,9 @@ subtitle: ¿Donde veo los productos y servicios que puedo ofrecer?
 urlsubtitle: /socio46/mis-ofertas
 country: Argentina
 ---
-Los Productos y Servicios los puedes encontrar en nuestra Tienda, dentro de la WnterSoldier de PAGO46. 
+Los Productos y Servicios los puedes encontrar en nuestra Tienda, dentro de la app de PAGO46. 
 
-Debe ingresar a la WnterSoldier de PAGO46 con su correo electrónico de registro y contraseña. 
+Debe ingresar a la app de PAGO46 con su correo electrónico de registro y contraseña. 
 
 Seleccione el icono “Tienda” que se encuentra en la parte inferior de la pantalla. 
 
@@ -19,7 +19,7 @@ Recarga SUBE.
 GiftCards para Consolas y VideoJuegos.
  
 
-Recuerda que puedes realizar colección de dinero en efectivo utilizando el lector de Códigos QR que se encuentra en la parte superior derecha  de todas las pantallas de la WnterSoldier, podrá recibir pagos de: 
+Recuerda que puedes realizar colección de dinero en efectivo utilizando el lector de Códigos QR que se encuentra en la parte superior derecha  de todas las pantallas de la app, podrá recibir pagos de: 
 
 Rappi
 

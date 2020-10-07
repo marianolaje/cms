@@ -1,6 +1,6 @@
 ---
 layout: subtitle
-title: Problemas de la WnterSoldier Chile
+title: Problemas de la app Chile
 id: "22"
 attachFile: false
 ---

@@ -7,7 +7,7 @@ country: Argentina
 ¿Realizaste una transferencia bancaria desde una cuenta propia? 
 
 Recuerda siempre crear el Ticket de carga antes de realizar la transferencia. Esta recarga puede demorar hasta 8 horas para verse en tu billetera y debe cumplir con lo siguiente:
-• El DNI del propietario de la cuenta bancaria debe coincidir con el DNI registrado en tu WnterSoldier de PAGO46.
+• El DNI del propietario de la cuenta bancaria debe coincidir con el DNI registrado en tu app de PAGO46.
 • El monto transferido sea igual al ingresado en el Ticket de carga.
 • La transferencia debe ser realizada antes de las 20:00 horas, transferencias realizadas luego de este horario serán acreditadas el día siguiente.
 

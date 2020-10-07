@@ -1,12 +1,12 @@
 ---
 layout: subtitle
-subtitle: ¿Cómo hago una transferencia para cargar mi WnterSoldier de PAGO46?
+subtitle: ¿Cómo hago una transferencia para cargar mi app de PAGO46?
 urlsubtitle: /recarga/como-transferencia
 country: Mexico
 ---
 Cargar tu billetera de PAGO46 con una transferencia bancaria es muy fácil, solo debes:
 
-➡️  Ingresar a tu WnterSoldier de PAGO46 e ir a la sección \"Billetera\".
+➡️  Ingresar a tu app de PAGO46 e ir a la sección \"Billetera\".
 
 ➡️  Tocar en \"Cargar Crédito\".
 
@@ -22,4 +22,4 @@ Recuerda siempre crear el Ticket de carga antes de realizar la transferencia. Es
 
 • El monto transferido sea igual al ingresado en el Ticket de carga.
 
-• El RFC del propietario de la cuenta bancaria debe coincidir con el RFC registrado en tu WnterSoldier de PAGO46.
+• El RFC del propietario de la cuenta bancaria debe coincidir con el RFC registrado en tu app de PAGO46.
