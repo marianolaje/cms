@@ -17,7 +17,7 @@ function WnterSoldier() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn ReacT
         </a>
       </header>
     </div>
