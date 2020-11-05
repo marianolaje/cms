@@ -38,7 +38,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{subtitle}} {{country}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "subtitle"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "{{subtitle}} - {{country}}"}
       - {label: "SubTitulo", name: "subtitle", widget: "string"}
       - {label: "Url subtitulo", name: "urlsubtitle", widget: "string"}
       - {label: "Pais", name: "country", widget: "string"}
